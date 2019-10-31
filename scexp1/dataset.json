@@ -1,0 +1,631 @@
+{
+  "name": "scexp1",
+  "shortLabel": "scexp1",
+  "tags": [
+    "10x"
+  ],
+  "clusterField": "Cluster",
+  "fileVersions": {
+    "inMeta": {
+      "fname": "/home/achilles/Desktop/cellbrowser/meta.tsv",
+      "md5": "e7e783c777",
+      "size": 423403,
+      "mtime": "2019-10-31 16:24:03"
+    },
+    "outMeta": {
+      "fname": "./web/scexp1/meta.tsv",
+      "md5": "f51d05e761",
+      "size": 415635,
+      "mtime": "2019-10-31 17:40:55"
+    },
+    "inMatrix": {
+      "fname": "/home/achilles/Desktop/cellbrowser/exprMatrix.tsv.gz",
+      "md5": "6db51d1aa3",
+      "size": 91324017,
+      "mtime": "2019-10-31 15:59:03"
+    },
+    "outMatrix": {
+      "fname": "./web/scexp1/exprMatrix.tsv.gz",
+      "md5": "6db51d1aa3",
+      "size": 91324017,
+      "mtime": "2019-10-31 17:40:55"
+    },
+    "conf": {
+      "fname": "/home/achilles/Desktop/cellbrowser/cellbrowser.conf",
+      "md5": "e4ae970811",
+      "size": 445,
+      "mtime": "2019-10-31 17:40:46"
+    }
+  },
+  "sampleCount": 7767,
+  "matrixWasFiltered": false,
+  "metaFields": [
+    {
+      "name": "Cell",
+      "label": "Cell",
+      "type": "uniqueString",
+      "maxSize": 18,
+      "diffValCount": 7767,
+      "md5": "5d6378d6ea"
+    },
+    {
+      "name": "nCountRNA",
+      "label": "nCount_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 5987,
+      "md5": "21f3025ad1"
+    },
+    {
+      "name": "nFeatureRNA",
+      "label": "nFeature_RNA",
+      "arrType": "float32",
+      "type": "int",
+      "diffValCount": 2641,
+      "md5": "887ef689b2"
+    },
+    {
+      "name": "Cluster",
+      "label": "Cluster",
+      "type": "enum",
+      "valCounts": [
+        [
+          "0",
+          862
+        ],
+        [
+          "1",
+          709
+        ],
+        [
+          "2",
+          683
+        ],
+        [
+          "3",
+          641
+        ],
+        [
+          "4",
+          591
+        ],
+        [
+          "5",
+          546
+        ],
+        [
+          "6",
+          493
+        ],
+        [
+          "7",
+          450
+        ],
+        [
+          "8",
+          442
+        ],
+        [
+          "9",
+          378
+        ],
+        [
+          "10",
+          333
+        ],
+        [
+          "11",
+          296
+        ],
+        [
+          "12",
+          259
+        ],
+        [
+          "14",
+          241
+        ],
+        [
+          "13",
+          235
+        ],
+        [
+          "15",
+          152
+        ],
+        [
+          "16",
+          96
+        ],
+        [
+          "18",
+          75
+        ],
+        [
+          "17",
+          73
+        ],
+        [
+          "19",
+          53
+        ],
+        [
+          "20",
+          51
+        ],
+        [
+          "21",
+          40
+        ],
+        [
+          "22",
+          36
+        ],
+        [
+          "23",
+          32
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 24,
+      "md5": "28e3a94506"
+    },
+    {
+      "name": "group",
+      "label": "group",
+      "type": "enum",
+      "valCounts": [
+        [
+          "CD",
+          4900
+        ],
+        [
+          "AB",
+          2867
+        ]
+      ],
+      "arrType": "Uint8",
+      "diffValCount": 2,
+      "md5": "5bd11453cb"
+    },
+    {
+      "name": "percentmito",
+      "label": "percent.mito",
+      "arrType": "float32",
+      "type": "float",
+      "diffValCount": 7015,
+      "md5": "3e17117267"
+    }
+  ],
+  "matrixArrType": "Float32",
+  "labelField": "Cluster",
+  "coords": [
+    {
+      "name": "coords_0",
+      "shortLabel": "Seurat tsne",
+      "md5": "c6bf07dcd9",
+      "minX": -44.0881124189209,
+      "maxX": 53.447333205189,
+      "minY": -56.0194032757436,
+      "maxY": 42.0544514878386,
+      "type": "Float32",
+      "labelMd5": "d41d8cd98f"
+    }
+  ],
+  "descMd5s": {
+    "summary": "bc007f2b5f"
+  },
+  "topMarkers": {
+    "0": [
+      "Gm2164",
+      "Dach1",
+      "Sgk1",
+      "Ebf1",
+      "Ccdc88c"
+    ],
+    "1": [
+      "Ebf1",
+      "Brinp3",
+      "Gm2164",
+      "Dach1",
+      "Sgk1"
+    ],
+    "2": [
+      "Htr4",
+      "Hs6st3",
+      "Rasgrf2",
+      "Cntnap5c",
+      "Cadm2"
+    ],
+    "3": [
+      "Zfp804a",
+      "Chd7",
+      "Gulp1",
+      "Slc24a4",
+      "Cdh12"
+    ],
+    "4": [
+      "Npas3",
+      "Drd2",
+      "Grik3",
+      "Adora2a",
+      "Ptprm"
+    ],
+    "5": [
+      "Alk",
+      "Pcdh15",
+      "Adarb2",
+      "Ptprm",
+      "Ntng1"
+    ],
+    "6": [
+      "Plcxd3",
+      "Adam12",
+      "Sdk1",
+      "Htr4",
+      "Sulf1"
+    ],
+    "7": [
+      "Pard3b",
+      "Tmem132d",
+      "Htr1f",
+      "Trpm3",
+      "Cntnap2"
+    ],
+    "8": [
+      "Prkg1",
+      "Egfem1",
+      "Pde1a",
+      "Pde1c",
+      "Pde4d"
+    ],
+    "9": [
+      "Gpc6",
+      "Reln",
+      "Sorcs1",
+      "Dach1",
+      "Cdh18"
+    ],
+    "10": [
+      "Ntrk2",
+      "Sik2",
+      "Nr4a3",
+      "Jarid2",
+      "Slc2a13"
+    ],
+    "11": [
+      "Vwc2l",
+      "Erbb4",
+      "Sphkap",
+      "Grm8",
+      "Adarb2"
+    ],
+    "12": [
+      "Ebf1",
+      "Gm32647",
+      "Cdh13",
+      "Rgs6",
+      "Cntnap5a"
+    ],
+    "13": [
+      "Pcdh9",
+      "Cdh18",
+      "Pde1c",
+      "Lingo2",
+      "Cdh7"
+    ],
+    "14": [
+      "Zfp804b",
+      "Nxph1",
+      "Grik1",
+      "Chrm3",
+      "Kcnc2"
+    ],
+    "15": [
+      "Gm28928",
+      "Fam19a1",
+      "Nfia",
+      "Car10",
+      "Sox5"
+    ],
+    "16": [
+      "Inpp4b",
+      "Erbb4",
+      "Nfib",
+      "Grm8",
+      "Vwc2l"
+    ],
+    "17": [
+      "Il1rapl2",
+      "Nxph1",
+      "Tcf4",
+      "Zfp536",
+      "Grip1"
+    ],
+    "18": [
+      "Sema5b",
+      "Shisa6",
+      "Pcdh7",
+      "Adarb2",
+      "Nell1"
+    ],
+    "19": [
+      "Cpa6",
+      "Ppm1e",
+      "Luzp2",
+      "Zeb2",
+      "Pcbp3"
+    ],
+    "20": [
+      "Alk",
+      "Drd2",
+      "Grik3",
+      "Zfp804a",
+      "Ptprt"
+    ],
+    "21": [
+      "Sox6",
+      "Sst",
+      "Nos1",
+      "Tacr1",
+      "Ptprt"
+    ],
+    "22": [
+      "Gm28928",
+      "Pcdh15",
+      "Ust",
+      "Ptprz1",
+      "Fat3"
+    ],
+    "23": [
+      "Sgcd",
+      "Grik1",
+      "Msi2",
+      "Thsd7b",
+      "Stac"
+    ]
+  },
+  "markers": [
+    {
+      "name": "markers_0",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "quickGenes": [
+    [
+      "Dgkk"
+    ],
+    [
+      "Dio3"
+    ],
+    [
+      "Meig1"
+    ],
+    [
+      "Cbln4"
+    ],
+    [
+      "Gm17655"
+    ],
+    [
+      "Zdbf2"
+    ],
+    [
+      "Efna5"
+    ],
+    [
+      "Arhgap36"
+    ],
+    [
+      "Pgap1"
+    ],
+    [
+      "Kctd12b"
+    ],
+    [
+      "Tmem47"
+    ],
+    [
+      "Ddit4l"
+    ],
+    [
+      "Lipa"
+    ],
+    [
+      "P2ry1"
+    ],
+    [
+      "D16Ertd472e"
+    ],
+    [
+      "Prr5"
+    ],
+    [
+      "Klhl4"
+    ],
+    [
+      "Cox4i2"
+    ],
+    [
+      "Slc7a7"
+    ],
+    [
+      "Tubb2b"
+    ],
+    [
+      "Rps6ka6"
+    ],
+    [
+      "Tmem229a"
+    ],
+    [
+      "Lrrtm2"
+    ],
+    [
+      "Zdhhc2"
+    ],
+    [
+      "Rab9b"
+    ],
+    [
+      "Stc1"
+    ],
+    [
+      "Spry4"
+    ],
+    [
+      "Man1a"
+    ],
+    [
+      "Unc5c"
+    ],
+    [
+      "2900052N01Rik"
+    ],
+    [
+      "Caap1"
+    ],
+    [
+      "Tbc1d8b"
+    ],
+    [
+      "Ifi27"
+    ],
+    [
+      "Serpine1"
+    ],
+    [
+      "Abcb7"
+    ],
+    [
+      "Smc2"
+    ],
+    [
+      "Magee2"
+    ],
+    [
+      "N4bp3"
+    ],
+    [
+      "Nid1"
+    ],
+    [
+      "Dsel"
+    ],
+    [
+      "Gcnt2"
+    ],
+    [
+      "Scg2"
+    ],
+    [
+      "Srsf7"
+    ],
+    [
+      "Sncaip"
+    ],
+    [
+      "Kctd4"
+    ],
+    [
+      "Paqr5"
+    ],
+    [
+      "Adam10"
+    ],
+    [
+      "Zfp874a"
+    ],
+    [
+      "Hpcal4"
+    ],
+    [
+      "Tubb6"
+    ],
+    [
+      "Ranbp6"
+    ],
+    [
+      "Srsf10"
+    ],
+    [
+      "Adat2"
+    ],
+    [
+      "Jam2"
+    ],
+    [
+      "Trim13"
+    ],
+    [
+      "Nabp1"
+    ],
+    [
+      "Sacm1l"
+    ],
+    [
+      "Pigf"
+    ],
+    [
+      "Creb1"
+    ],
+    [
+      "Vwa5a"
+    ],
+    [
+      "Rab8b"
+    ],
+    [
+      "Cggbp1"
+    ],
+    [
+      "Zbtb10"
+    ],
+    [
+      "Pten"
+    ],
+    [
+      "Lyn"
+    ],
+    [
+      "Crim1"
+    ],
+    [
+      "Net1"
+    ],
+    [
+      "Mpp5"
+    ],
+    [
+      "Vat1l"
+    ],
+    [
+      "Cbfa2t3"
+    ],
+    [
+      "Pycrl"
+    ],
+    [
+      "Pcgf5"
+    ],
+    [
+      "Rasa1"
+    ],
+    [
+      "Otud1"
+    ],
+    [
+      "Ehbp1l1"
+    ],
+    [
+      "Slc38a2"
+    ],
+    [
+      "Smarca5"
+    ],
+    [
+      "Tmc7"
+    ]
+  ],
+  "md5": "062786c1e0"
+}

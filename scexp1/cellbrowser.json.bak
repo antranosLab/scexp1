@@ -1,0 +1,29 @@
+{
+  "name": "scexp1",
+  "shortLabel": "scexp1",
+  "exprMatrix": "exprMatrix.tsv.gz",
+  "tags": [
+    "10x"
+  ],
+  "meta": "meta.tsv",
+  "geneIdType": "symbol",
+  "quickGenesFile": "top100.nac.up.tsv",
+  "clusterField": "Cluster",
+  "labelField": "Cluster",
+  "enumFields": [
+    "Cluster"
+  ],
+  "markers": [
+    {
+      "file": "/home/achilles/Desktop/cellbrowser/markers.tsv",
+      "shortLabel": "Seurat Cluster Markers"
+    }
+  ],
+  "coords": [
+    {
+      "file": "/home/achilles/Desktop/cellbrowser/tsne.coords.tsv",
+      "shortLabel": "Seurat tsne"
+    }
+  ],
+  "inDir": ""
+}
