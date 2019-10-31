@@ -16,7 +16,7 @@
       "fname": "./web/scexp1/meta.tsv",
       "md5": "f51d05e761",
       "size": 415635,
-      "mtime": "2019-10-31 17:40:55"
+      "mtime": "2019-10-31 18:18:02"
     },
     "inMatrix": {
       "fname": "/home/achilles/Desktop/cellbrowser/exprMatrix.tsv.gz",
@@ -28,7 +28,7 @@
       "fname": "./web/scexp1/exprMatrix.tsv.gz",
       "md5": "6db51d1aa3",
       "size": 91324017,
-      "mtime": "2019-10-31 17:40:55"
+      "mtime": "2019-10-31 18:18:03"
     },
     "conf": {
       "fname": "/home/achilles/Desktop/cellbrowser/cellbrowser.conf",
@@ -46,7 +46,7 @@
       "type": "uniqueString",
       "maxSize": 18,
       "diffValCount": 7767,
-      "md5": "5d6378d6ea"
+      "md5": "3d29d990ff"
     },
     {
       "name": "nCountRNA",
@@ -54,7 +54,7 @@
       "arrType": "float32",
       "type": "int",
       "diffValCount": 5987,
-      "md5": "21f3025ad1"
+      "md5": "6896a34467"
     },
     {
       "name": "nFeatureRNA",
@@ -62,7 +62,7 @@
       "arrType": "float32",
       "type": "int",
       "diffValCount": 2641,
-      "md5": "887ef689b2"
+      "md5": "272390f5b3"
     },
     {
       "name": "Cluster",
@@ -168,7 +168,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 24,
-      "md5": "28e3a94506"
+      "md5": "6e5d1b5678"
     },
     {
       "name": "group",
@@ -186,7 +186,7 @@
       ],
       "arrType": "Uint8",
       "diffValCount": 2,
-      "md5": "5bd11453cb"
+      "md5": "877ea7cfa2"
     },
     {
       "name": "percentmito",
@@ -194,7 +194,7 @@
       "arrType": "float32",
       "type": "float",
       "diffValCount": 7015,
-      "md5": "3e17117267"
+      "md5": "3a61c1534a"
     }
   ],
   "matrixArrType": "Float32",
@@ -213,7 +213,7 @@
     }
   ],
   "descMd5s": {
-    "summary": "bc007f2b5f"
+    "summary": "8b948a5bc1"
   },
   "topMarkers": {
     "0": [
@@ -396,18 +396,6 @@
       "Dgkk"
     ],
     [
-      "Dio3"
-    ],
-    [
-      "Meig1"
-    ],
-    [
-      "Cbln4"
-    ],
-    [
-      "Gm17655"
-    ],
-    [
       "Zdbf2"
     ],
     [
@@ -417,61 +405,22 @@
       "Arhgap36"
     ],
     [
-      "Pgap1"
-    ],
-    [
-      "Kctd12b"
-    ],
-    [
       "Tmem47"
-    ],
-    [
-      "Ddit4l"
     ],
     [
       "Lipa"
     ],
     [
-      "P2ry1"
-    ],
-    [
-      "D16Ertd472e"
-    ],
-    [
       "Prr5"
-    ],
-    [
-      "Klhl4"
-    ],
-    [
-      "Cox4i2"
     ],
     [
       "Slc7a7"
     ],
     [
-      "Tubb2b"
-    ],
-    [
-      "Rps6ka6"
-    ],
-    [
-      "Tmem229a"
-    ],
-    [
-      "Lrrtm2"
-    ],
-    [
       "Zdhhc2"
     ],
     [
-      "Rab9b"
-    ],
-    [
       "Stc1"
-    ],
-    [
-      "Spry4"
     ],
     [
       "Man1a"
@@ -483,149 +432,26 @@
       "2900052N01Rik"
     ],
     [
-      "Caap1"
-    ],
-    [
-      "Tbc1d8b"
-    ],
-    [
-      "Ifi27"
-    ],
-    [
-      "Serpine1"
-    ],
-    [
-      "Abcb7"
-    ],
-    [
-      "Smc2"
-    ],
-    [
-      "Magee2"
-    ],
-    [
-      "N4bp3"
-    ],
-    [
-      "Nid1"
-    ],
-    [
-      "Dsel"
-    ],
-    [
       "Gcnt2"
     ],
     [
       "Scg2"
     ],
     [
-      "Srsf7"
-    ],
-    [
       "Sncaip"
-    ],
-    [
-      "Kctd4"
-    ],
-    [
-      "Paqr5"
-    ],
-    [
-      "Adam10"
-    ],
-    [
-      "Zfp874a"
-    ],
-    [
-      "Hpcal4"
-    ],
-    [
-      "Tubb6"
-    ],
-    [
-      "Ranbp6"
-    ],
-    [
-      "Srsf10"
-    ],
-    [
-      "Adat2"
     ],
     [
       "Jam2"
     ],
     [
-      "Trim13"
-    ],
-    [
-      "Nabp1"
-    ],
-    [
-      "Sacm1l"
-    ],
-    [
-      "Pigf"
-    ],
-    [
-      "Creb1"
-    ],
-    [
-      "Vwa5a"
-    ],
-    [
-      "Rab8b"
-    ],
-    [
-      "Cggbp1"
-    ],
-    [
-      "Zbtb10"
-    ],
-    [
-      "Pten"
-    ],
-    [
-      "Lyn"
-    ],
-    [
       "Crim1"
-    ],
-    [
-      "Net1"
-    ],
-    [
-      "Mpp5"
     ],
     [
       "Vat1l"
     ],
     [
-      "Cbfa2t3"
-    ],
-    [
-      "Pycrl"
-    ],
-    [
       "Pcgf5"
-    ],
-    [
-      "Rasa1"
-    ],
-    [
-      "Otud1"
-    ],
-    [
-      "Ehbp1l1"
-    ],
-    [
-      "Slc38a2"
-    ],
-    [
-      "Smarca5"
-    ],
-    [
-      "Tmc7"
     ]
   ],
-  "md5": "062786c1e0"
+  "md5": "94feeba1c9"
 }
